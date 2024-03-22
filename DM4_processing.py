@@ -264,7 +264,7 @@ def convertDM4DirectoryToTiff(directory, destination=None, contrast=True, prefix
                 print("{}/{}".format(i, num))
     print("Conversions done.")
 
-def convertDM4ToTiff(src, destination=None, verbose=False):\
+def convertDM4ToTiff(src, destination=None, verbose=False):
     """
         Take a DM4 image and saves it as a TIF image with scale included in ImageJ 
         format. The saved image does not necessarily have appreciable contrast
